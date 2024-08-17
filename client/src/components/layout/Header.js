@@ -1,11 +1,12 @@
 import React from "react";
+import "./Header.css";
 
-function header() {
+function Header() {
   return (
-    <div>
-      <h1>Header</h1>
+    <div className="header">
+      <span>StoreBuddy</span>
     </div>
   );
 }
 
-export default header;
+export default Header;
