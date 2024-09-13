@@ -72,3 +72,20 @@
 }
 
 /* ====== Footer End ===== */
+
+.page-not-found {
+  text-align: center;
+  padding-top: 260px;
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+
+.btn {
+  padding: 10px;
+  color: white;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 700;
+  background-color: rgb(0, 0, 0);
+}
