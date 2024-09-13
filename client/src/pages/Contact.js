@@ -1,5 +1,10 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
+import {
+  IoCallOutline,
+  IoMailOutline,
+  IoLocationOutline,
+} from "react-icons/io5";
 
 function Contact() {
   return (
@@ -12,13 +17,15 @@ function Contact() {
               <div className="col-md-6">
                 <p className="page-sub-title">Customer Care</p>
                 <p>
+                  <IoCallOutline />
                   <i className="fa fa-phone"></i> +91 12345 67890
                 </p>
                 <p>
-                  <i className="fa fa-envelope"></i>{" "}
-                  <a href="mailto:care@storebuddy.com">care@storebuddy.com</a>
+                  <i className="fa fa-envelope"></i> <IoMailOutline />
+                  <a href="mailto:care@storebuddy.com"> care@storebuddy.com</a>
                 </p>
                 <p>
+                  <IoLocationOutline />
                   <i className="fa fa-map-marker"></i> StoreBuddy Pvt. Ltd.
                   <br />
                   123, Some Street, Some City, Some State, Pincode - 123456
