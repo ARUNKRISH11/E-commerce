@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,3 +17,58 @@
   font-weight: 600;
   font-style: normal;
 } */
+
+/* ====== Navbar Start ===== */
+/* ====== Header Start ===== */
+
+.navbar {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  line-height: 26px;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px gray;
+  --webkit-box-shadow: 0 8px 6px -6px gray;
+  border-bottom: 0.5px solid gray !important;
+}
+
+.nab-link {
+  font-weight: 300 !important;
+}
+
+.active {
+  border-bottom: 2px solid black;
+}
+
+.navbar-brand {
+  cursor: pointer;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+/* ====== Header End ===== */
+
+/* ====== Footer Start ===== */
+
+.footer {
+  color: #000000;
+  background-color: rgb(227, 227, 227);
+  text-align: center;
+  font-size: 22px;
+  padding: 40px;
+}
+
+.footer a {
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  padding: 15px;
+}
+
+.footer a:hover {
+  color: rgb(115, 86, 86);
+  border-radius: 2px;
+  border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+/* ====== Footer End ===== */
