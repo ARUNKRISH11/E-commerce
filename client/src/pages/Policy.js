@@ -1,16 +1,16 @@
 import React from "react";
 import Layout from "../components/layout/Layout";
 
-function HelpPage() {
+function Policy() {
   return (
     <Layout>
-      <div>help</div>
+      <div>Policy</div>
     </Layout>
   );
 }
 
 Layout.defaultProps = {
-  title: "Help - StoreBuddy",
+  title: "Privacy Policy - StoreBuddy",
   description:
     "StoreBuddy is an online shopping cart where you can find all the necessary shopping items.",
   keywords:
@@ -18,4 +18,4 @@ Layout.defaultProps = {
   author: "StoreBuddy",
 };
 
-export default HelpPage;
+export default Policy;
