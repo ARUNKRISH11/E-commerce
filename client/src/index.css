@@ -83,7 +83,7 @@
 
 .btn {
   padding: 10px;
-  margin-top: 10px;
+  margin-top: 20px;
   color: white;
   border-radius: 5px;
   font-size: 20px;
@@ -136,4 +136,8 @@
 .file-input {
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.form{
+  padding-top: 80px;
 }
