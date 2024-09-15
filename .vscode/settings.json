@@ -1,3 +1,5 @@
 {
-    "git.ignoreLimitWarning": true
+    "git.ignoreLimitWarning": true,
+    "accessibility.signalOptions.volume": 0,
+    "explorer.compactFolders": false
 }
