@@ -129,7 +129,7 @@
   font-family: "Poppins", sans-serif;
 }
 
-.row-image {
+.register-image {
   padding: 40px;
 }
 
@@ -138,11 +138,15 @@
   padding-bottom: 20px;
 }
 
-.form{
+.login-form{
   padding-top: 80px;
 }
 
 .form-control { 
 padding: 12px;
 margin-bottom: 6px;
+}
+
+.login-image{
+  padding: 0;
 }

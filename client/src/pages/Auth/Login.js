@@ -8,24 +8,22 @@ function Login() {
         <h1 className="page-title"> Login</h1>
         <div className="row">
           <div className="col-md-6 ">
-            <form className="page-content form">
+            <form className="page-content login-form">
               <p classNme="page-title"></p>
               <div className="form-group">
-                <label for="name">Name</label>
-                <input
-                  type="text"
-                  className="form-control"
-                  placeholder="Edwin Thomas"
-                  id="name"
-                />
-              </div>
-              <div className="form-group">
-                <label for="email">Email or Phone</label>
+                <label for="email">Email</label>
                 <input
                   type="email"
                   className="form-control"
-                  placeholder="edwinthomas@g.com or Enter phone number"
-                  id="email"
+                  placeholder="edwinthomas@g.com"
+                />
+              </div>
+              <div className="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  className="form-control"
+                  placeholder="at least 8 characters"
                 />
               </div>
               <button type="submit" className="btn">
@@ -33,11 +31,13 @@ function Login() {
               </button>
             </form>
           </div>
-          <div className="col-md-6 row-image">
+          <div className="col-md-6 login-image">
             <img
-              src="https://www.rhitrading.in/img/loginbg.png"
+              src="https://img.freepik.com/free-vector/mobile-login-concept-illustration_114360-83.jpg?w=740&t=st=1726652236~exp=1726652836~hmac=9c36a5ec7b29e96a787451b2d008e59309b5fe1681ab41a20e5b087e8b1e102c"
               classname="img-fluid"
               alt="Login Image"
+              width={700}
+              height={660}
             />
           </div>
         </div>

@@ -55,7 +55,7 @@ function Register() {
               </button>
             </form>
           </div>
-          <div className="col-md-6 row-image">
+          <div className="col-md-6 register-image">
             <img
               src="https://www.rhitrading.in/img/loginbg.png"
               classname="img-fluid"
