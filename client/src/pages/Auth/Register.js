@@ -1,54 +1,85 @@
-import React from "react";
+import React, { useState } from "react";
 import Layout from "../../components/layout/Layout";
 
 function Register() {
+  const [name, setName] = useState("")
+  const [email, setEmail] = useState("")
+  const [password, setPassword] = useState("")
+  const [phone, setPhone] = useState("")
+  const [address, setAddress] = useState("")
+
+  // Form functions
+
+  const handleSubmit = (e) => {
+    e.preventDefault()
+    console.log(name, email, password, phone, address)
+  }
+
   return (
     <Layout>
       <div className="container">
         <h1 className="page-title"> Register</h1>
         <div className="row">
           <div className="col-md-6 ">
-            <form className="page-content">
+            <form onSubmit={handleSubmit} className="page-content">
               <p classNme="page-title"></p>
               <div className="form-group">
-                <label for="name">Name</label>
+                <label for="name" className="required">Name </label>
                 <input
                   type="text"
+                  value={name}
+                  onChange={(e) => setName(e.target.value)}
                   className="form-control"
                   placeholder="Edwin Thomas"
+                  required
                 />
               </div>
               <div className="form-group">
-                <label for="email">Email</label>
+                <label for="email" className="required">Email</label>
                 <input
                   type="email"
+                  value={email}
+                  onChange={(e) => setEmail(e.target.value)}
                   className="form-control"
                   placeholder="edwinthomas@g.com"
+                  required
                 />
               </div>
               <div className="form-group">
-                <label for="password">Password</label>
+                <label for="password" className="required">Password</label>
                 <input
                   type="password"
+                  value={password}
+                  onChange={(e) => setPassword(e.target.value)}
                   className="form-control"
                   placeholder="at least 8 characters"
+                  required
                 />
               </div>
               <div className="form-group">
-                <label for="phone">Phone Number</label>
+                <label for="phone" className="required">Phone Number</label>
                 <input
                   type="text"
+                  value={phone}
+                  onChange={(e) => setPhone(e.target.value)}
                   className="form-control"
                   placeholder="Enter phone number"
+                  required
                 />
               </div>
               <div className="form-group">
-                <label for="address">Address</label>
+                <label for="address"  className="required">Address</label>
                 <input
                   type="text"
+                  value={address}
+                  onChange={(e) => setAddress(e.target.value)}
                   className="form-control"
                   placeholder="Enter your address"
+                  required
                 />
+              </div>
+              <div>
+                <p className="required"> This field is required</p>
               </div>
               <button type="submit" className="btn">
                 Submit

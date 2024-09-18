@@ -150,3 +150,8 @@ margin-bottom: 6px;
 .login-image{
   padding: 0;
 }
+
+.required:after {
+  content:" *";
+  color: red;
+}
