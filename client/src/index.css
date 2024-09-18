@@ -141,3 +141,8 @@
 .form{
   padding-top: 80px;
 }
+
+.form-control { 
+padding: 12px;
+margin-bottom: 6px;
+}

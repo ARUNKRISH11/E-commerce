@@ -16,7 +16,6 @@ function Register() {
                   type="text"
                   className="form-control"
                   placeholder="Edwin Thomas"
-                  id="name"
                 />
               </div>
               <div className="form-group">
@@ -25,7 +24,14 @@ function Register() {
                   type="email"
                   className="form-control"
                   placeholder="edwinthomas@g.com"
-                  id="email"
+                />
+              </div>
+              <div className="form-group">
+                <label for="password">Password</label>
+                <input
+                  type="password"
+                  className="form-control"
+                  placeholder="at least 8 characters"
                 />
               </div>
               <div className="form-group">
@@ -34,15 +40,14 @@ function Register() {
                   type="text"
                   className="form-control"
                   placeholder="Enter phone number"
-                  id="phone"
                 />
               </div>
-              <div className="form-group file-input">
-                <label for="profile-picture">Profile Picture</label>
+              <div className="form-group">
+                <label for="address">Address</label>
                 <input
-                  type="file"
-                  classname="form-control-file"
-                  id="profile-picture"
+                  type="text"
+                  className="form-control"
+                  placeholder="Enter your address"
                 />
               </div>
               <button type="submit" className="btn">
